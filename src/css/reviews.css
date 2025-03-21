@@ -99,7 +99,7 @@
     }
 
     .reviews-items {
-        width: 336px;
+        max-width: 336px;
         flex-basis: calc((100% - 32px) / 2);
 
     }
