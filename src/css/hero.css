@@ -22,7 +22,6 @@
 }
 
 .hero-container {
-    width: 335px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,15 +88,21 @@
 
     .hero-container {
         width: 704px;
-        height: 400px;
+        margin: 0;
+        padding: 0;
     }
 
     .hero-title {
         font-size: 70px;
+        padding: 0 24px;
+        padding-bottom: 24px;
     }
+
+        
 
     .hero-paragraf {
         font-size: 16px;
+        padding: 0 68px;
     }
     .hero-container-text {
         padding-bottom: 48px;
@@ -133,8 +138,8 @@
     }
 
     .hero-paragraf {
-        width: 597px;
-        margin: 0 auto;
+        padding: 0 14px;
+
     }
   }
 
