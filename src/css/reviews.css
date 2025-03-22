@@ -108,6 +108,10 @@
     .reviews-subtext {
         width: 284px;
     }
+
+    .reviews-card-two {
+        width: 271px;
+    }
 }
 
 
@@ -134,6 +138,18 @@
 
     .reviews-subtext {
         width: 300px;
+    }
+
+    .reviews-card-one {
+        width: 286px;
+    }
+
+    .reviews-card-two {
+        width: 293px;
+    }
+
+    .reviews-card-three {
+        width: 278px;
     }
 }
 
