@@ -1,4 +1,5 @@
 .hero {
+   
     height: 812px; 
     display: flex;
     align-items: center;
@@ -41,8 +42,9 @@
 }
 
 .hero-paragraf {
+    width: 320px;
     font-size: 12px;
-    line-height: 1.4;
+    line-height: 1.17;
     color: rgba(251, 251, 251, 0.7);
     font-weight: 300;
 }
@@ -73,6 +75,7 @@
 
     @media screen and (min-width: 768px) {
         .hero {
+          
           height: 962px;
           background-image: url("/img/hero/hero-tablet-min-min.jpg");
         }
@@ -101,6 +104,8 @@
         
 
     .hero-paragraf {
+        width: 695px;
+        line-height: 1.4;
         font-size: 16px;
         padding: 0 68px;
     }
@@ -138,8 +143,9 @@
     }
 
     .hero-paragraf {
-        padding: 0 14px;
-
+        width: 1001px;
+        height: 66px;
+        padding: 0 220px;
     }
   }
 
