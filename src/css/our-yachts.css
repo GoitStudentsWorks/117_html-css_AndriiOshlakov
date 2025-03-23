@@ -1,5 +1,5 @@
 .our-yachts-section {
-  margin-bottom: 80px;
+  padding: 40px 0;
 }
 
 .our-yachts-container {
@@ -143,7 +143,7 @@
 
 @media screen and (min-width: 768px) {
   .our-yachts-section {
-    margin-bottom: 150px;
+    padding: 75px 0;
   }
 
   .our-yachts-list {
