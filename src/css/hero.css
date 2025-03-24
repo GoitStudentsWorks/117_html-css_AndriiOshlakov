@@ -49,7 +49,7 @@
     font-weight: 300;
 }
 
-.hero-button {
+.our-yachts-btn {
     background: #1b414b;
     border-radius: 15px;
     width: 141px;
@@ -66,8 +66,8 @@
     cursor: pointer;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.our-yachts-btn:hover,
+.our-yachts-btn:focus {
     background: #fbfbfb;
     color: #1b414b;
 }
@@ -113,7 +113,7 @@
         padding-bottom: 48px;
     }
 
-    .hero-button {
+    .our-yachts-btn {
        width: 179px;
        height: 52px;
        font-size: 18px;
