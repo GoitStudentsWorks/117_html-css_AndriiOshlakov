@@ -2,6 +2,46 @@
     <div class="container desktop">
         <div class="text-form-wrapper">
             <h2 class="section-title">Rent a yacht now</h2>
+            <form class="rent-form">
+
+                <div class="rent-form-container">
+                    <label class="rent-form-label visually-hidden" for="user-name">Name</label>
+                    <input class="rent-form-input" type="text" id="user-name" name="user-name" placeholder="Full Name"
+                        required>
+                </div>
+
+                <div class="rent-form-container">
+                    <label class="rent-form-label visually-hidden" for="user-email">Email</label>
+                    <input class="rent-form-input" type="email" id="user-email" name="user-email"
+                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,8}" placeholder="Email" required>
+                </div>
+
+                <div class="rent-form-container">
+                    <label class="rent-form-label visually-hidden" for="user-phone">Phone</label>
+                    <input class="rent-form-input" type="tel" id="user-phone" name="user-phone"
+                        pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$" placeholder="Phone number" required>
+                </div>
+
+                <div class="rent-form-comment">
+                    <label class="rent-form-label visually-hidden" for="user-comment">Comment</label>
+                    <textarea class="rent-form-input rent-form-textarea" type="submit" id="user-comment"
+                        name="user-comment" placeholder="Comment"></textarea>
+                </div>
+                <button class="rent-button" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="image-wrapper">
+            <picture>
+                <source srcset="/img/rent/Photo1440@1x.webp 1x, /img/rent/Photo1440@2x.webp 2x"
+                    media="(min-width: 1440px)">
+                <source srcset="/img/rent/Photo1280@1x.webp 1x, /img/rent/Photo1280@2x.webp 2x"
+                    media="(min-width: 1280px)">
+                <source srcset="/img/rent/Photo768@1x.webp 1x, /img/rent/Photo768@2x.webp 2x"
+                    media="(min-width: 768px)">
+                <source srcset="/img/rent/Photo375@1x.webp 1x, /img/rent/Photo375@2x.webp 2x"
+                    media="(max-width: 767px)">
+                <img src="/img/rent/Photo375@1x.webp" alt="night and yacht">
+            </picture>
         </div>
     </div>
 </section>
