@@ -57,6 +57,7 @@
 
 .benefits-item:hover .benefits-item-text {
     color: #1b414b;
+    min-height: 44px;
 }
 
 .benefits-item:hover .benefits-item-icon {
