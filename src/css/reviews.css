@@ -26,7 +26,8 @@
     letter-spacing: -0.02em;
     text-align: center;
     opacity: 0.4;
-    margin-bottom: 40px;
+    margin: 0 auto 40px;
+    max-width: 313px;
 }
 
 .reviews-items {
@@ -101,8 +102,7 @@
     .reviews-text {
         font-size: 14px;
         line-height: 1.29;
-        width: 541px;
-        margin: 0 auto;
+        max-width: 530px;
         margin-bottom: 75px;
     }
 
