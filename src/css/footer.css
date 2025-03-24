@@ -76,7 +76,7 @@
 .footer-text {
   font-size: 18px;
   text-align: center;
-  max-width: 280px;
+  max-width: 260px;
   margin-bottom: 82px;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -118,12 +118,15 @@
   .footer-container-nav {
     flex-direction: row;
     margin-bottom: 96px;
-  } 
+    align-items: start;
+  }
+  
   .footer-text {
     font-size: 32px;
     max-width: 620px;
     margin-bottom: 99px;
   }
+
   .logo-footer {
     font-size: 20px;
   }
@@ -131,24 +134,22 @@
   .nav-links {
     margin-left: 110px;
   } 
+
   .footer-nav-item a {
     padding: 15px 25px;
   }
+
   .footer-social-list {
     margin: 0 0 0 91px;
   }
 
-  .footer-text {
-    font-size: 32px;
-    max-width: 640px;
-  }
-
-  .footer-bottom {
+  .footer-bottom { 
     font-size: 14px;
     gap: 32px;
     line-height: 1.18;
   }
 } 
+
 /* десктопна-версія */
 @media screen and (min-width: 1280px) {
   .footer {
@@ -166,6 +167,10 @@
     margin-left: 326px;
   }
 
+  .footer-text {
+ max-width: 693px;
+  }
+
   .social-links {
     margin: 0;
   }
@@ -179,10 +184,16 @@
     font-size: 9px;
   }
 }
+/* 1440 */
  @media screen and (min-width: 1440px) {
   .footer-social-list {
     margin-left: 388px;
   }
+
+   .footer-text {
+ max-width: 699px;
+  }
+
   .nav-links {
     margin-left: 409px;
   }
