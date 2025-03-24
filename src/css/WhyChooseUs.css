@@ -39,16 +39,12 @@ img {
 /* Benefits Start */
 
 .benefits {
-    background-color: #0E1823;
+    padding: 40px 0;
 }
 
-.benefits-container {
-    background-color: #0E1823;
-}
+.benefits-container {}
 
-.benefits-items-inner {
-    margin: 80px 20px;
-}
+.benefits-items-inner {}
 
 @media screen and (min-width:768px) {
     .benefits-items-inner {
