@@ -85,15 +85,6 @@
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  .block-advantages-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 60%;
-  }
-}
-
 .advantages-list {
   padding: 80px 20px;
   min-width: 335px;
