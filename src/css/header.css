@@ -12,7 +12,6 @@
   border-radius: 8px;
 }
 .header-logo {
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
@@ -32,7 +31,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   padding: 0;
   border: none;
   background-color: transparent;
@@ -104,6 +102,9 @@
   }
   .header-container {
     width: 1080px;
+  }
+  .icon-link:hover .header-icon {
+  transform: scale(1.5);
   }
 }
 @media screen and (min-width: 1440px) {
