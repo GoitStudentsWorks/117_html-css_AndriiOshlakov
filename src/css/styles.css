@@ -12,13 +12,14 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./mobile-menu.css');
 @import url('./hero.css');
 @import url('./about-us.css');
 @import url('./our-yachts.css');
 @import url('./advantages.css');
 @import url('./rent.css');
 @import url('./reviews.css');
+@import url('./WhyChooseUs.css');
 
 
 @import url('./footer.css');
+@import url('./mobile-menu.css');
