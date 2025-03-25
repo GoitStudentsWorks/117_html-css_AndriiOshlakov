@@ -11,23 +11,8 @@
     overflow: hidden;
 }
 
-.test-text {
-    font-family: "Inter", sans-serif;
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    color: #fbfbfb;
-    font-weight: 500;
-}
-
-.rent-test {
-    background-color: #0e1823;
-    padding: 75px 20px;
-}
-
 .rent {
-    background-color: #0e1823;
-    padding: 75px 20px;
+    padding: 40px 0;
 }
 
 .section-title {
@@ -118,15 +103,18 @@
 
 @media screen and (min-width: 768px) {
 
+    .rent {
+        padding: 75px 0;
+    }
+
     .section-title {
         font-size: 48px;
-        padding-left: 148px;
     }
 
     .rent-form {
+        margin: 0 auto;
         max-width: 473px;
         margin-bottom: 100px;
-        padding-left: 148px;
     }
 
     .rent-button {
@@ -140,10 +128,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-
-    .rent {
-        padding: 0;
-    }
 
     .rent-form {
         padding: 0;
@@ -159,9 +143,9 @@
     }
 
     .image-wrapper {
-        padding-right: 50px;
         flex: 1;
         min-width: 658px;
+        margin-right: 50px;
     }
 
     .text-form-wrapper {
@@ -176,7 +160,7 @@
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
 
     .image-wrapper {
         min-width: 768px;
