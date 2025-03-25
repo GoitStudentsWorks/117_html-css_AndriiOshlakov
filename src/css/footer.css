@@ -69,14 +69,8 @@
   justify-content: center;
 }
 
-.social-icons-instagram {
-  width: 19px;
-  height: 19px;
-}
 
 .social-icons {
-  width: 20px;
-  height: 20px;
   fill: #fbfbfb;
   transition: transform 0.3s;
 }
