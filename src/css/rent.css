@@ -109,12 +109,17 @@
 
     .section-title {
         font-size: 48px;
+        padding-bottom: 50px;
     }
 
     .rent-form {
         margin: 0 auto;
         max-width: 473px;
         margin-bottom: 100px;
+    }
+
+    .rent-form-textarea {
+        margin-bottom: 50px;
     }
 
     .rent-button {
