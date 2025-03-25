@@ -57,7 +57,7 @@
 
 .benefits-item:hover .benefits-item-text {
     color: #1b414b;
-    min-height: 44px;
+    min-height: 42px;
 }
 
 .benefits-item:hover .benefits-item-icon {
@@ -79,6 +79,7 @@
 
 .benefits-item:focus .benefits-item-text {
     color: #1b414b;
+    min-height: 42px;
 }
 
 .benefits-item:focus .benefits-item-icon {
@@ -107,6 +108,7 @@
     line-height: 117%;
     letter-spacing: -0.02em;
     color: #fbfbfb;
+    min-height: 42px;
 }
 
 .benefits-item-link {
