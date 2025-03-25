@@ -1,5 +1,10 @@
 .about_us {
-  position: relative;
+
+  padding-bottom: 40px;
+}
+
+.about-container {
+  margin-top: -59px;
 }
 
 .about_us_content {
@@ -10,10 +15,12 @@
   max-width: 100%;
   background-color: #fbfbfb;
 }
+
 .about_us .about_us_content_inner {
   border-radius: 24px;
   overflow: hidden;
 }
+
 .about_us_hole_text {
   padding: 40px 20px;
   display: flex;
@@ -22,30 +29,45 @@
   max-width: 100%;
   background: #fbfbfb;
 }
+
 .about_us_title {
   font: 500 28px / 1 'Inter', sans-serif;
   letter-spacing: -0.02em;
   color: #1b414b;
   margin-bottom: 40px;
+  max-width: 275px;
 }
+
 .text {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .about_us_subtitle {
   font: 400 18px / 1 'Inter', sans-serif;
   letter-spacing: -0.02em;
   color: #1b414b;
+  max-width: 275px;
 }
+
 .about_us_text {
   font: 400 12px / 1.16667 'Inter', sans-serif;
   letter-spacing: -0.02em;
   color: #040306;
   opacity: 0.4;
+  max-width: 270px;
 }
 
 @media (min-width: 768px) {
+  .about_us {
+    padding-bottom: 75px;
+  }
+
+  .about-container {
+    margin-top: -44px;
+  }
+
   .about_us_content {
     width: 704px;
   }
@@ -61,7 +83,7 @@
 
   .about_us_title {
     font: 500 48px / 1 'Inter', sans-serif;
-    width: 536px;
+    max-width: 536px;
     margin-bottom: 50px;
   }
 
@@ -71,21 +93,30 @@
 
   .about_us_subtitle {
     font: 400 23px / 1 'Inter', sans-serif;
+    max-width: 355px;
   }
+
   .about_us_text {
     font: 400 13px / 1.15 'Inter', sans-serif;
+    max-width: 360px;
   }
 }
 
 @media (min-width: 1280px) {
+  .about-container {
+    margin-top: -34px;
+  }
+
   .about_us_content {
     width: 1180px;
     padding: 0%;
   }
+
   .about_us_hole_text {
     flex-direction: row;
     justify-content: space-between;
   }
+
   .about_us_title {
     font: 500 48px / 1 'Inter', sans-serif;
     width: 537px;
@@ -94,11 +125,15 @@
   .text {
     width: 354px;
   }
+
   .about_us_subtitle {
     font: 400 23px / 1 'Inter', sans-serif;
+    max-width: 325px;
   }
+
   .about_us_text {
     font: 400 13px / 1.15 'Inter', sans-serif;
+    max-width: 325px;
   }
 }
 
@@ -110,14 +145,19 @@
   .about_us_title {
     font: 500 48px / 1 'Inter', sans-serif;
   }
+
   .text {
     width: 404px;
   }
+
   .about_us_subtitle {
     font: 400 23px / 1 'Inter', sans-serif;
+    max-width: 375px;
   }
+
   .about_us_text {
     font: 400 13px / 1.15 'Inter', sans-serif;
+    max-width: 375px;
   }
 }
 
